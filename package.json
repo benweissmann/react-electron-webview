@@ -2,6 +2,7 @@
   "name": "react-electron-webview",
   "description": "React component for the <webview> element in Electron.",
   "main": "index.js",
+  "version": "1.0.8",
   "scripts": {
     "test": "karma start",
     "prepublish": "babel src/webview.js --out-file index.js",
