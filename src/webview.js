@@ -70,4 +70,4 @@ WebView.propTypes = {
   useragent: React.PropTypes.string
 };
 
-EVENTS.reduce((propTypes, event) => propTypes[camelCase(event)] = React.PropTypes.func, WebView.propTypes);
+EVENTS.each(event => WebView.propTypes[camelCase(event)] = React.PropTypes.func);
